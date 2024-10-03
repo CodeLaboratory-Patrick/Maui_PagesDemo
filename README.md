@@ -101,3 +101,26 @@ A `ScrollView` in .NET MAUI is a container that allows users to scroll through c
 
 - **Efficient Screen Space Management:**  
   When you need to efficiently manage screen space by displaying a menu only when needed.
+
+# XAML에서의 FlyoutLayoutBehavior란 무엇인가?
+
+`FlyoutLayoutBehavior`는 Flyout 메뉴가 화면에 어떻게 나타나고 동작할지를 결정하는 속성입니다. 이를 통해 개발자는 다양한 디바이스와 화면 크기에서 Flyout 메뉴의 레이아웃을 조정할 수 있습니다. 이 속성은 사용자 경험을 향상시키고 앱의 네비게이션을 효율적으로 관리하는 데 도움을 줍니다.
+
+## 특징
+
+`FlyoutLayoutBehavior`는 다음과 같은 멤버를 포함합니다:
+
+- **Default**  
+  플랫폼의 기본 동작을 따릅니다. 일반적으로 모바일에서는 Flyout 메뉴가 오버레이로 나타나고, 데스크톱이나 태블릿에서는 Split 형태로 표시됩니다.
+
+- **Split**  
+  화면을 두 부분으로 나누어 Flyout 메뉴와 Detail 페이지를 동시에 표시합니다.
+
+- **Popover**  
+  Flyout 메뉴가 팝오버 형태로 나타납니다. 주로 큰 화면의 디바이스에서 사용됩니다.
+
+- **SplitOnLandscape**  
+  화면이 가로 모드일 때는 Split 모드로, 세로 모드일 때는 오버레이로 표시됩니다.
+
+- **SplitOnPortrait**  
+  화면이 세로 모드일 때는 Split 모드로, 가로 모드일 때는 오버레이로 표시됩니다.
