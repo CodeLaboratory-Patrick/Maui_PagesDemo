@@ -25,6 +25,8 @@ A `ContentPage` in .NET MAUI represents a page that provides a single content ar
 
 A `ScrollView` in .NET MAUI is a container that allows users to scroll through content when it exceeds the screen size. It supports both vertical and horizontal scrolling, enabling access to off-screen content.
 
+![how-to-make-a-scrollview-snap-with-paging-or-between-child-views-2~dark](https://github.com/user-attachments/assets/7b2db9e8-d534-4b28-9818-6d82e8b9893b)
+
 ## Key Features
 
 1. **Single Child Element:** `ScrollView` can host one child element, typically a layout container (e.g., `StackLayout`, `Grid`) to include multiple controls.
